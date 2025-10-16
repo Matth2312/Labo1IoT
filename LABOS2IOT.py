@@ -66,5 +66,14 @@ while True:
     else:
         melodie_perso(vol)
 
-
+#test versionning github
+# === Définition des notes ===
+def DO(time, vol): buzzer.freq(1046); buzzer.duty_u16(int(vol)); sleep(time)
+def RE(time, vol): buzzer.freq(1175); buzzer.duty_u16(int(vol)); sleep(time)
+def MI(time, vol): buzzer.freq(1318); buzzer.duty_u16(int(vol)); sleep(time)
+def FA(time, vol): buzzer.freq(1397); buzzer.duty_u16(int(vol)); sleep(time)
+def SO(time, vol): buzzer.freq(1568); buzzer.duty_u16(int(vol)); sleep(time)
+def LA(time, vol): buzzer.freq(1760); buzzer.duty_u16(int(vol)); sleep(time)
+def SI(time, vol): buzzer.freq(1967); buzzer.duty_u16(int(vol)); sleep(time)
+def NO(time): buzzer.duty_u16(0); sleep(time)
 
